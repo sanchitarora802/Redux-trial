@@ -10,6 +10,8 @@ function amountReducer(state=0,action){
     }
     else
     {
-        state
+        return state
     }
 }
+
+export default amountReducer
